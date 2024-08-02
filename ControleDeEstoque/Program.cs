@@ -5,16 +5,19 @@ class Program
 {
     private static void Main(string[] args)
     {
-        Produto p = new Produto();
-        int operacao;
+        string nome;
+        int operacao, quantidade;
+        double preco;
 
         Console.WriteLine("Entre com os dados do produto: ");
         Console.Write("Nome: ");
-        p.Nome = Console.ReadLine();
+        nome = Console.ReadLine();
         Console.Write("Preço: ");
-        p.Preco = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+        preco = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
         Console.Write("Quantidade em estoque: ");
-        p.Quantidade = int.Parse(Console.ReadLine());
+        quantidade = int.Parse(Console.ReadLine());
+
+        Produto p = new Produto(nome, preco, quantidade);
         Console.WriteLine("Dados do produto: " + p);
 
         Console.Write("Digite a operação que deseja realizar: 1 - Adicionar, 2 - Remover ou 3 - Sair: ");

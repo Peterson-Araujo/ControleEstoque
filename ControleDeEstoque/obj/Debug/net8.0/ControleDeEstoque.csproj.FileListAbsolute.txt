@@ -12,3 +12,4 @@ C:\Users\peter\OneDrive\Documentos\Estudos\CSharp\ControleDeEstoque\ControleDeEs
 C:\Users\peter\OneDrive\Documentos\Estudos\CSharp\ControleDeEstoque\ControleDeEstoque\obj\Debug\net8.0\ControleDeEstoque.pdb
 C:\Users\peter\OneDrive\Documentos\Estudos\CSharp\ControleDeEstoque\ControleDeEstoque\obj\Debug\net8.0\ControleDeEstoque.genruntimeconfig.cache
 C:\Users\peter\OneDrive\Documentos\Estudos\CSharp\ControleDeEstoque\ControleDeEstoque\obj\Debug\net8.0\ref\ControleDeEstoque.dll
+C:\Users\peter\OneDrive\Documentos\Estudos\CSharp\ControleDeEstoque\ControleDeEstoque\obj\Debug\net8.0\ControleDeEstoque.sourcelink.json
